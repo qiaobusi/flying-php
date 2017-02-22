@@ -35,3 +35,12 @@ Route::any('/web/car/checkversion', 'Web\CarController@checkVersion');
 Route::any('/web/express/index', 'Web\ExpressController@index');
 //Route::any('/web/express/instantquery', 'Web\ExpressController@instantQuery');
 //Route::any('/web/express/numberrecognition', 'Web\ExpressController@numberRecognition');
+
+
+//manage
+Route::any('/manage/index/index', 'Manage\IndexController@index');
+Route::any('/manage/index/login', 'Manage\IndexController@login');
+Route::any('/manage/index/logout', 'Manage\IndexController@logout');
+
+Route::any('/manage/main/index', 'Manage\MainController@index');
+Route::any('/manage/user/index', 'Manage\UserController@index');

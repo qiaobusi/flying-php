@@ -10,3 +10,5 @@ class BaseController extends Controller
     public $helperkey = '2oWt1grdVKjQbnlzsfc2PeCOvLcfPix1';
 
 }
+
+?>

@@ -12,12 +12,12 @@ class VerifyCsrfToken extends BaseVerifier
      * @var array
      */
     protected $except = [
-	'/web/car/getuserinfo',
-	'/web/car/saveuserinfo',
-	'/web/car/login',
-	'/web/car/register',
-	'/web/car/savepassword',
-	'/web/car/resetpassword',
+        '/web/car/getuserinfo',
+        '/web/car/saveuserinfo',
+        '/web/car/login',
+        '/web/car/register',
+        '/web/car/savepassword',
+        '/web/car/resetpassword',
         '/web/car/checkversion',
 
         '/web/express/index',
