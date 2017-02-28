@@ -113,7 +113,7 @@
     <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-4">
-            <div class="box box-info">
+            <div class="box box-primary">
                 <div class="box-header with-border">
                     <h3 class="box-title">登录</h3>
                 </div>
@@ -194,7 +194,6 @@
                 },
                 dataType: 'JSON',
                 success: function(data) {
-                    console.info(data);
                     if (data.status == 1) {
                         window.location.href = '{{url("manage/main/index")}}';
                     } else {

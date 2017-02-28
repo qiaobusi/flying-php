@@ -311,7 +311,7 @@
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img src="{{ asset("assets/AdminLTE/dist/img/user2-160x160.jpg")  }}" class="user-image">
-                            <span class="hidden-xs">{{ $manager['username'] }}</span>
+                            <span class="hidden-xs">{{ $managerGlobal['username'] }}</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
@@ -319,7 +319,7 @@
                                 <img src="{{ asset("assets/AdminLTE/dist/img/user2-160x160.jpg")  }}" class="img-circle">
 
                                 <p>
-                                    {{ $manager['username'] }}
+                                    {{ $managerGlobal['username'] }}
                                     <small></small>
                                 </p>
                             </li>

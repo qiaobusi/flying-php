@@ -9,7 +9,7 @@ use Crypt;
 
 class IndexController extends Controller
 {
-    public function index(Request $request)
+    public function getIndex(Request $request)
     {
         $manager = $request->session()->get('manage-manager', '');
         if ($manager != '') {
@@ -20,7 +20,7 @@ class IndexController extends Controller
         return view('manage.index.index');
     }
 
-    public function login(Request $request)
+    public function postLogin(Request $request)
     {
         $manager = $request->session()->get('manage-manager', '');
         if ($manager != '') {
@@ -67,7 +67,7 @@ class IndexController extends Controller
         return response()->json($return);
     }
 
-    public function logout(Request $request)
+    public function getLogout(Request $request)
     {
         $request->session()->forget('manage-manager');
 

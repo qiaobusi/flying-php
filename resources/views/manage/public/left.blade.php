@@ -34,7 +34,7 @@
 			</span>
 		  </a>
 		  <ul class="treeview-menu">
-			<li><a href="javascript:void(0)"><i class="fa fa-circle-o"></i>管理员</a></li>
+			<li><a href="{{ url('manage/manager/index') }}"><i class="fa fa-circle-o"></i>管理员</a></li>
 		  </ul>
 		</li>
 		<li class="active treeview">

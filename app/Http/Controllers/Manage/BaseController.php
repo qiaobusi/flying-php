@@ -14,7 +14,7 @@ class BaseController extends Controller
             header('Location:' . url('manage/index/index'));
             exit;
         } else {
-            return view()->share('manager', $manager);
+            return view()->share('managerGlobal', $manager);
         }
     }
 

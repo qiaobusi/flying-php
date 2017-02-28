@@ -8,7 +8,7 @@ use DB;
 
 class MainController extends BaseController
 {
-    public function index(Request $request)
+    public function getIndex(Request $request)
     {
         $users = DB::table('users')
             ->select('id', 'mobile', 'name', 'created_at')

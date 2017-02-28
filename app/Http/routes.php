@@ -38,9 +38,7 @@ Route::any('/web/express/index', 'Web\ExpressController@index');
 
 
 //manage
-Route::any('/manage/index/index', 'Manage\IndexController@index');
-Route::any('/manage/index/login', 'Manage\IndexController@login');
-Route::any('/manage/index/logout', 'Manage\IndexController@logout');
-
-Route::any('/manage/main/index', 'Manage\MainController@index');
-Route::any('/manage/user/index', 'Manage\UserController@index');
+Route::controller('/manage/index', 'Manage\IndexController');
+Route::controller('/manage/main', 'Manage\MainController');
+Route::controller('/manage/user', 'Manage\UserController');
+Route::controller('/manage/manager', 'Manage\ManagerController');
