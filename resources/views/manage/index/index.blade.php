@@ -153,7 +153,7 @@
                     <!-- /.box-body -->
                     <div class="box-footer text-right">
                         <button type="button" class="btn btn-default" id="resetForm">清 空</button>&nbsp;&nbsp;
-                        <button type="button" class="btn btn-info" id="saveForm">登 录</button>
+                        <button type="button" class="btn btn-primary" id="saveForm">登 录</button>
                     </div>
                     <!-- /.box-footer -->
                 </form>
