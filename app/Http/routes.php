@@ -36,6 +36,11 @@ Route::any('/web/express/index', 'Web\ExpressController@index');
 //Route::any('/web/express/instantquery', 'Web\ExpressController@instantQuery');
 //Route::any('/web/express/numberrecognition', 'Web\ExpressController@numberRecognition');
 
+//惩恶扬善
+Route::any('/web/goodevil/getgood', 'Web\GoodevilController@getGood');
+Route::any('/web/goodevil/getevil', 'Web\GoodevilController@getEvil');
+Route::any('/web/goodevil/insertarticle', 'Web\GoodevilController@insertArticle');
+
 
 //manage
 Route::controller('/manage/index', 'Manage\IndexController');

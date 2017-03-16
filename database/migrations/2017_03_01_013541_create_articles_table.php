@@ -19,6 +19,7 @@ class CreateArticlesTable extends Migration
             $table->string('tag');
             $table->string('title');
             $table->text('content');
+            $table->enum('state', [1, 2]);
             $table->timestamps();
         });
     }
